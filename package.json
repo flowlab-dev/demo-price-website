@@ -1,0 +1,12 @@
+{
+  "name": "northgate-metalworks-site",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Business website demo: laser cutting shop with a working RFQ form and a live budgetary estimate. No server, no build step, no external requests.",
+  "license": "MIT",
+  "engines": { "node": ">=20" },
+  "scripts": {
+    "test": "node --test",
+    "shots": "node screenshots/take.mjs"
+  }
+}
